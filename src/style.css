@@ -1,0 +1,161 @@
+html {
+    height: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.nav-body {
+    padding-bottom: 4%;
+}
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 2rem;
+    height: auto;
+}
+
+.navbar-brand {
+    font-family: "Graduate";
+    font-size: 12px !important;
+    color: white !important;
+    text-decoration: none;
+}
+
+.signin-btn, .logout-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.signin-btn:hover, .logout-btn:hover {
+    background-color: #45a049;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+body {
+    padding-top: 60px;
+    background-image: url('./img/bg-small.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #45a049 !important;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+h1, h2, h3 {
+    font-family: "Graduate";
+}
+
+table {
+    background-color: white;
+}
+
+.footer-body {
+    padding-top: 10%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.homeF {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 598px) {
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .homeF {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-size: 2rem !important;
+    }
+
+    nav img {
+        width: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 5rem;
+    }
+
+    nav img {
+        width: 4rem;
+    }
+    
+    body {
+        background-image: url('./img/bg-large.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .footer-body {
+        padding-top: 8%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 7rem;
+    }
+
+    nav img {
+        width: 5rem;
+    }
+
+    .footer-body {
+        padding-top: 5%;
+    }
+}

@@ -1,0 +1,71 @@
+.signin {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  min-height: 100vh;
+}
+
+.signin-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.input-field, .input-field-pass {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.signin label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signin input[type="text"], .signin input[type="email"], .signin input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn, .google-btn {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.btn:hover, .google-btn:hover {
+  background-color: #4cae4c;
+}
+
+.error-message {
+  color: red;
+  background-color: #f8d7da;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+}

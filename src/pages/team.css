@@ -1,0 +1,117 @@
+.noTeam {
+    color: white;
+}
+
+.team-header {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.team {
+    text-align: center;
+}
+
+.invitations {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .invitations h3 {
+    margin-top: 0;
+  }
+  
+  .invitations ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .invitations li {
+    margin-bottom: 10px;
+  }
+  
+  .invitations button {
+    margin-right: 10px;
+  }  
+
+.team .table{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.team th{
+    height: 2rem;
+    text-align: center;
+    color: #009133;
+    background-color:#d3d3d3 ;
+    
+}
+
+.team.atr th{
+    height: 2rem;
+    text-align: center;
+    color: #004491;
+    background-color:#d3d3d3 ;
+
+}
+
+.team.cover {
+    width: 100px;
+    height: 100px;
+}
+
+.team th, td {
+    padding: 0.5em;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+}
+
+.filter-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+  }
+  
+
+#position-filter {
+    margin-left: 10px;
+}
+
+.freeAgentsTitle {
+    margin-top: 3%;
+    margin-bottom: 10px;
+}
+
+.createTeamBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.createTeamBtn:hover {
+    background-color: #45a049;
+}  
+
+.leaveTeamBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

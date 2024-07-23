@@ -1,0 +1,51 @@
+.home .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .card-title {
+    font-family: "Graduate";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home .card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.home .card-body a:hover {
+    color: #45a049;
+}
+
+.home .card-text {
+    font-size: 16px;
+}
+
+.home .card-body img {
+    width: 5rem;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .home .card-body img {
+        width: 6rem;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url('../img/bg-large.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .home .card-body img {
+        width: 7rem;
+        height: auto;
+    }
+}
